@@ -1,10 +1,145 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sadia Yusuf Portfolio</title>
+<title>Sadia Yusuf | Business Analyst</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial;
+  background:#0d1117;
+  color:white;
+}
+
+header {
+  text-align:center;
+  padding:60px 20px;
+}
+
+button {
+  padding:10px 15px;
+  margin:5px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.linkedin {background:#0a66c2;color:white;}
+.resume {background:#238636;color:white;}
+
+section {
+  padding:40px 10%;
+}
+
+h2 {text-align:center;}
+
+.projects {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+}
+
+.card {
+  background:#161b22;
+  padding:15px;
+  border-radius:10px;
+}
+
+.card img {
+  width:100%;
+  border-radius:8px;
+}
+
+.skills {
+  text-align:center;
+  line-height:2;
+}
+
+footer {
+  background:#161b22;
+  text-align:center;
+  padding:20px;
+}
+</style>
+
 </head>
+
 <body>
-  <h1>Hello, I'm Sadia Yusuf</h1>
-  <p>Business Analyst Portfolio Coming Soon</p>
+
+<header>
+<h1>Hi, I'm Sadia Yusuf 👋</h1>
+<p>Business Analyst | Data & Business Analytics</p>
+
+<button class="linkedin"
+onclick="window.open('https://linkedin.com','_blank')">
+LinkedIn
+</button>
+
+<button class="resume"
+onclick="window.open('resume.pdf','_blank')">
+Download Resume
+</button>
+
+</header>
+
+<section>
+<h2>About Me</h2>
+<p style="text-align:center;">
+Chartered Accountant transitioning into Business Analytics.
+I specialize in transforming financial and operational data
+into actionable insights using SQL, Excel and Power BI.
+</p>
+</section>
+
+<section>
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="card">
+<img src="projects/project1.png">
+<h3>Sales Performance Dashboard</h3>
+<p>
+Analyzed regional sales data to identify revenue trends
+and improve business decision-making.
+</p>
+</div>
+
+<div class="card">
+<img src="projects/project2.png">
+<h3>Financial Analysis Dashboard</h3>
+<p>
+Profitability and expense analysis using Excel & SQL.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+<h2>Skills & Tools</h2>
+
+<div class="skills">
+SQL • Excel • Power BI • Tableau • Python (Basics)<br>
+Jira • Confluence • Draw.io • Business Analysis<br>
+Financial Modeling • Reporting • Data Cleaning
+</div>
+
+</section>
+
+<section>
+<h2>Contact</h2>
+<p style="text-align:center;">
+Email: yourmail@email.com<br>
+LinkedIn: Add profile link
+</p>
+</section>
+
+<footer>
+<p>© 2026 Sadia Yusuf | Business Analyst Portfolio</p>
+</footer>
+
 </body>
 </html>
+
