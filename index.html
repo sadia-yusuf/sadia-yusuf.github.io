@@ -4,65 +4,107 @@
 <title>Sadia Yusuf | Business Analyst</title>
 
 <style>
-.about {
-  text-align: center;
-  max-width: 900px;
-  margin: auto;
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#0d1117;
+  color:white;
 }
 
+/* Header */
 header {
   text-align:center;
-  padding:60px 20px;
+  padding:70px 20px;
 }
 
+header p {
+  margin-bottom:20px;
+}
+
+/* Buttons */
 button {
-  padding:10px 15px;
-  margin:5px;
+  padding:12px 18px;
+  margin:6px;
   border:none;
   border-radius:6px;
   cursor:pointer;
+  font-size:15px;
 }
 
 .linkedin {background:#0a66c2;color:white;}
 .resume {background:#238636;color:white;}
+.github {background:#30363d;color:white;}
 
+button:hover {
+  opacity:0.85;
+}
+
+/* Sections */
 section {
-  padding:40px 10%;
+  padding:60px 10%;
 }
 
-h2 {text-align:center;}
+h2 {
+  text-align:center;
+  margin-bottom:25px;
+}
 
+/* About Section */
+.about {
+  text-align:center;
+  max-width:900px;
+  margin:auto;
+  line-height:1.6;
+}
+
+/* Projects Grid */
 .projects {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 30px;
-  max-width: 1100px;
-  margin: auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+  gap:30px;
+  max-width:1100px;
+  margin:auto;
 }
 
+/* Project Card */
 .card {
   background:#161b22;
-  padding:15px;
+  padding:20px;
   border-radius:10px;
 }
+
 .card img {
-  width: 100%;
-  height: 220px;
-  object-fit: contain;
-  background: #0d1117;
-  border-radius: 8px;
+  width:100%;
+  height:220px;
+  object-fit:contain;
+  background:#0d1117;
+  border-radius:8px;
 }
 
+.card h3 {
+  margin-top:15px;
+}
 
+/* Skills */
 .skills {
   text-align:center;
   line-height:2;
+  max-width:900px;
+  margin:auto;
 }
 
+/* Contact */
+.contact {
+  text-align:center;
+  line-height:1.8;
+}
+
+/* Footer */
 footer {
   background:#161b22;
   text-align:center;
-  padding:20px;
+  padding:25px;
+  margin-top:40px;
 }
 </style>
 
@@ -75,7 +117,7 @@ footer {
 <p>Business Analyst | Data & Business Analytics</p>
 
 <button class="linkedin"
-onclick="window.open('https://linkedin.com','_blank')">
+onclick="window.open('https://linkedin.com/in/YOURPROFILE','_blank')">
 LinkedIn
 </button>
 
@@ -84,11 +126,11 @@ onclick="window.open('resume.pdf','_blank')">
 Download Resume
 </button>
 
-<button class="Github"
-onclick="window.open('github.com','_blank')">
-view Github
-</button> 
-  
+<button class="github"
+onclick="window.open('https://github.com/sadia-yusuf','_blank')">
+View GitHub
+</button>
+
 </header>
 
 <section class="about">
@@ -109,8 +151,7 @@ into actionable insights using SQL, Excel and Power BI.
 <img src="projects/Marketing-dashboard.png">
 <h3>Marketing Analytics Performance Dashboard</h3>
 <p>
-Analyzed regional sales data to identify revenue trends
-and improve business decision-making.
+Analyzed regional sales data to identify revenue trends and improve business decision-making.
 </p>
 </div>
 
@@ -137,9 +178,9 @@ Financial Modeling • Reporting • Data Cleaning
 
 </section>
 
-<section>
+<section class="contact">
 <h2>Contact</h2>
-<p style="text-align:center;">
+<p>
 Email: yourmail@email.com<br>
 LinkedIn: Add profile link
 </p>
@@ -151,4 +192,3 @@ LinkedIn: Add profile link
 
 </body>
 </html>
-
