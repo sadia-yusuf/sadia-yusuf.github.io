@@ -64,12 +64,12 @@
   .hero-eyebrow { font-size: 0.75rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gold); margin-bottom: 1.2rem; }
   .hero-name {
     font-family: 'Cormorant Garamond', serif;
-    font-size: clamp(3rem, 5vw, 5.5rem);
+    font-size: clamp(2.6rem, 4.4vw, 4.6rem);
     font-weight: 600; line-height: 1.05;
     color: #fff;
     margin-bottom: 1.2rem;
   }
-  .hero-name span { color: var(--gold); display: block; }
+  .hero-name span { color: var(--gold); }
   .hero-subtitle { font-size: 1rem; color: rgba(255,255,255,0.65); line-height: 1.7; max-width: 460px; margin-bottom: 2.5rem; }
   .hero-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2.5rem; }
   .hero-tag {
@@ -232,8 +232,7 @@
   <div class="hero-content">
     <div class="hero-eyebrow">Chartered Accountant · Data Analyst · New Delhi</div>
     <h1 class="hero-name">
-      Sadia<br>
-      <span>Saad Yusuf</span>
+      Sadia <span>Saad Yusuf</span>
     </h1>
     <p class="hero-subtitle">
       CA with 7+ years of high-stakes audit experience across India's biggest institutions — now turning deep financial domain knowledge into risk analytics and data-driven insight with Python, SQL, Power BI, and Tableau.
@@ -360,6 +359,24 @@
 
       <div class="timeline-item">
         <div>
+          <div class="timeline-date">Jun 2018 – Nov 2019</div>
+          <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;">1.5 years</div>
+        </div>
+        <div>
+          <div class="timeline-company">Independent Practice · New Delhi</div>
+          <div class="timeline-role">Chartered Accountant</div>
+          <div class="timeline-clients">ICAI Certificate of Practice · Owner-managed businesses across trading, services &amp; manufacturing</div>
+          <ul class="timeline-bullets">
+            <li>Ran an independent CA practice serving small and mid-sized owner-managed businesses on audit, compliance, and finance-process engagements.</li>
+            <li>Conducted statutory and tax audits (Section 44AB), testing revenue and expense classification and reporting control weaknesses across the cash, purchase, and payroll cycles.</li>
+            <li>Guided clients through the post-GST transition — reconciled GSTR-1 and GSTR-3B to books, resolved input-tax-credit mismatches, and set up repeatable monthly reconciliation routines.</li>
+            <li>Built Excel and Power Query reporting templates that replaced manual monthly compilation and standardised MIS output.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div>
           <div class="timeline-date">Feb 2013 – Jul 2015</div>
           <div style="font-size:0.75rem; color:var(--muted); margin-top:4px;">2.5 years</div>
         </div>
@@ -440,6 +457,20 @@
         <div class="proj-title">Banking Transaction Anomaly Detection & Analysis</div>
         <div class="proj-desc">End-to-end Python pipeline that detects anomalies, flags risk signals, and surfaces spending patterns in banking transaction data. Uses dual-method detection (Z-score + IQR), 24-hour velocity checks, and dormant account spike analysis. Key findings: 3.2% outlier rate, top 3 categories account for 68% of spend, seasonal spikes in December and March. Built on real SBI audit experience.</div>
         <a class="proj-link" href="https://github.com/sadia-yusuf/-Banking-Transaction-Analysis" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">scikit-learn</span><span class="proj-tag">Machine Learning</span><span class="proj-tag">Churn</span></div>
+        <div class="proj-title">ConnectTel Customer Churn Prediction</div>
+        <div class="proj-desc">Machine-learning pipeline predicting telecom customer churn with a soft-voting ensemble (Logistic Regression + Random Forest + HistGradientBoosting). A retention-economics cost function sets a cost-optimised decision threshold (0.34) rather than defaulting to 0.5. Test ROC-AUC 0.841, catching 78.9% of churners for an expected £23,225 saving per intervention cycle. Built in the LSE Data Analytics Career Accelerator.</div>
+        <a class="proj-link" href="https://github.com/sadia-yusuf/connecttel-churn-model" target="_blank">View on GitHub</a>
+      </div>
+
+      <div class="proj-card">
+        <div class="proj-tags"><span class="proj-tag">Python</span><span class="proj-tag">R</span><span class="proj-tag">Segmentation</span><span class="proj-tag">NLP</span><span class="proj-tag">Predictive Modelling</span></div>
+        <div class="proj-title">Customer Loyalty Analytics</div>
+        <div class="proj-desc">End-to-end loyalty study on 2,000 customer records (Turtle Games): K-Means segmentation into five commercial segments, multiple linear regression explaining 82.7% of loyalty variance, and VADER / TextBlob sentiment analysis of review text. Tree-based models reach R² 0.94 for CRM deployment. Built across Python and R for the LSE Advanced Analytics programme.</div>
+        <a class="proj-link" href="https://github.com/sadia-yusuf/Customer-loyalty-analytics-segmentation-drivers-and-predictive-modelling" target="_blank">View on GitHub</a>
       </div>
 
     </div>
