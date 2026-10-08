@@ -197,6 +197,12 @@
   .proj-link { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; font-weight: 700; color: var(--gold-deep); text-decoration: none; display: flex; align-items: center; gap: 6px; }
   .proj-link::after { content: '→'; transition: transform 0.2s; }
   .proj-link:hover::after { transform: translateX(4px); }
+  .proj-dashboard {
+    font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 700; text-decoration: none;
+    padding: 6px 14px; border: 1px solid var(--gold-deep); border-radius: 999px; color: var(--gold-deep);
+    transition: background .2s, color .2s;
+  }
+  .proj-dashboard:hover { background: var(--gold-deep); color: #fff; }
   .proj-dashboard-pending {
     font-size: 0.66rem; letter-spacing: 0.06em; text-transform: uppercase; font-weight: 600;
     padding: 5px 12px; border: 1px dashed var(--border); border-radius: 999px; color: var(--muted);
@@ -488,7 +494,7 @@
           <div class="proj-desc">RFM customer segmentation, channel evaluation, and high-value product identification for a multi-country retail dataset. Interactive Tableau dashboards as output.</div>
           <div class="proj-actions">
             <a class="proj-link" href="https://github.com/sadia-yusuf/Exploratory-Data-analysis-using-SQL-and-Tableau" target="_blank">View on GitHub</a>
-            <span class="proj-dashboard-pending">Dashboard · Coming soon</span>
+            <a class="proj-dashboard" href="https://analytics-portfolio-app-ihk6vxjm67gugcddw597mb.streamlit.app/?project=market" target="_blank" rel="noopener">Dashboard ↗</a>
           </div>
         </div>
       </div>
@@ -524,7 +530,7 @@
           <div class="proj-desc">Diagnostic analysis of NHS appointment data (2020–2022): COVID-19 impact, capacity utilisation, waiting times, and operational efficiency using Python. Executive-ready deliverable.</div>
           <div class="proj-actions">
             <a class="proj-link" href="https://github.com/sadia-yusuf/NHS-Diagnostic-Analysis-Healthcare-Capacity-Appointment-Analysis" target="_blank">View on GitHub</a>
-            <span class="proj-dashboard-pending">Dashboard · Coming soon</span>
+            <a class="proj-dashboard" href="https://analytics-portfolio-app-ihk6vxjm67gugcddw597mb.streamlit.app/?project=nhs" target="_blank" rel="noopener">Dashboard ↗</a>
           </div>
         </div>
       </div>
@@ -574,7 +580,7 @@
           <div class="proj-desc">End-to-end Python pipeline that detects anomalies, flags risk signals, and surfaces spending patterns in banking transaction data. Uses dual-method detection (Z-score + IQR), 24-hour velocity checks, and dormant account spike analysis. Key findings: 3.2% outlier rate, top 3 categories account for 68% of spend, seasonal spikes in December and March.</div>
           <div class="proj-actions">
             <a class="proj-link" href="https://github.com/sadia-yusuf/-Banking-Transaction-Analysis" target="_blank">View on GitHub</a>
-            <span class="proj-dashboard-pending">Dashboard · Coming soon</span>
+            <a class="proj-dashboard" href="https://analytics-portfolio-app-ihk6vxjm67gugcddw597mb.streamlit.app/?project=bank" target="_blank" rel="noopener">Dashboard ↗</a>
           </div>
         </div>
       </div>
@@ -589,7 +595,7 @@
           <div class="proj-desc">Machine-learning pipeline predicting telecom customer churn with a soft-voting ensemble (Logistic Regression + Random Forest + HistGradientBoosting). A retention-economics cost function sets a cost-optimised decision threshold (0.34) rather than defaulting to 0.5. Test ROC-AUC 0.841, catching 78.9% of churners for an expected £23,225 saving per intervention cycle. Built in the LSE Data Analytics Career Accelerator.</div>
           <div class="proj-actions">
             <a class="proj-link" href="https://github.com/sadia-yusuf/connecttel-churn-model" target="_blank">View on GitHub</a>
-            <span class="proj-dashboard-pending">Dashboard · Coming soon</span>
+            <a class="proj-dashboard" href="https://analytics-portfolio-app-ihk6vxjm67gugcddw597mb.streamlit.app/?project=churn" target="_blank" rel="noopener">Dashboard ↗</a>
           </div>
         </div>
       </div>
@@ -604,7 +610,7 @@
           <div class="proj-desc">End-to-end loyalty study on 2,000 customer records (Turtle Games): K-Means segmentation into five commercial segments, multiple linear regression explaining 82.7% of loyalty variance, and VADER / TextBlob sentiment analysis of review text. Tree-based models reach R² 0.94 for CRM deployment. Built across Python and R for the LSE Advanced Analytics programme.</div>
           <div class="proj-actions">
             <a class="proj-link" href="https://github.com/sadia-yusuf/Customer-loyalty-analytics-segmentation-drivers-and-predictive-modelling" target="_blank">View on GitHub</a>
-            <span class="proj-dashboard-pending">Dashboard · Coming soon</span>
+            <a class="proj-dashboard" href="https://analytics-portfolio-app-ihk6vxjm67gugcddw597mb.streamlit.app/?project=turtle" target="_blank" rel="noopener">Dashboard ↗</a>
           </div>
         </div>
       </div>
